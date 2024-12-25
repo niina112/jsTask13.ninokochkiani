@@ -1,34 +1,3 @@
-/* Homework: Library Management System
-Task:
-Create a simple program that models a library system using JavaScript classes and inheritance.
-
-Requirements:
-Base Class: LibraryItem
-
-Properties:
-title: The item's title.
-author: The item's author.
-publishedYear: The year it was published.
-Method:
-getDetails(): Logs details about the item.
-Derived Class: Book
-
-Additional Property:
-genre: The book's genre (e.g., Fiction, Science).
-Override Method:
-Use super.getDetails() and add "Genre: [genre]".
-Derived Class: Magazine
-
-Additional Property:
-issueNumber: The magazine's issue number.
-Override Method:
-Use super.getDetails() and add "Issue Number: [issueNumber]". */
-
-
-// Base Class: LibraryItem
-
-
-
 class LibraryItem {
     constructor(title, author, year) {
         this.title = title;
